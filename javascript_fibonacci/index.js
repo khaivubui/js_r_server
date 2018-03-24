@@ -5,7 +5,7 @@ const nthFibonacci = (num) => {
 
 let number = 1;
 
-while (number <= 40) {
+while (number <= 42) {
   console.log(nthFibonacci(number));
   number++;
 }

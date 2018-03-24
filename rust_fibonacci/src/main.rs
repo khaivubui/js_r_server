@@ -9,6 +9,6 @@ fn main() {
     loop {
         println!("{}", nth_fibonacci(number));
         number += 1;
-        if number > 40 { break; }
+        if number > 42 { break; }
     }
 }
