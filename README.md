@@ -31,7 +31,7 @@ fn main() {
 #### JavaScript
 
 ```javascript
-const nthFibonacci = (num) => {
+function nthFibonacci(num) {
   if (num < 2) return num;
   return nthFibonacci(num - 1) + nthFibonacci(num - 2);
 };
