@@ -11,5 +11,5 @@
 
 #### JavaScript
 
-- JavaScript benchmark code is stored in `javascript_fibonacci/fibonacci.js`
-- Run JavaScript benchmark with `time node javascript_fibonacci/fibonacci.js`
+- JavaScript benchmark code is stored in `javascript_fibonacci/index.js`
+- Run JavaScript benchmark with `time node javascript_fibonacci/`
