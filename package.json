@@ -1,0 +1,22 @@
+{
+  "name": "js_r_server",
+  "version": "1.0.0",
+  "description": "## Running Benchmarks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaivubui/js_r_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaivubui/js_r_server/issues"
+  },
+  "homepage": "https://github.com/khaivubui/js_r_server#readme",
+  "dependencies": {
+    "ffi": "^2.2.0"
+  }
+}
