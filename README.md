@@ -2,8 +2,7 @@
 
 ## Setup
 
-1. `npm install`
-2. `cd rust_fibonacci/ && cargo build --release && cd ..`
+`npm install && cd rust_fibonacci/ && cargo build --release && cd ..`
 
 ## Running Benchmarks
 
