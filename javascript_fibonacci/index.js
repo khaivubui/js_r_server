@@ -1,11 +1,11 @@
-function nthFibonacci(num) {
-  if (num < 2) return num;
-  return nthFibonacci(num - 1) + nthFibonacci(num - 2);
+function nthFibonacci(n) {
+  if (n < 2) return 1;
+  return nthFibonacci(n - 1) + nthFibonacci(n - 2);
 };
 
-let number = 1;
+let index = 0;
 
-while (number <= 42) {
-  console.log(nthFibonacci(number));
-  number++;
+while (index <= 42) {
+  console.log(nthFibonacci(index));
+  index++;
 }
