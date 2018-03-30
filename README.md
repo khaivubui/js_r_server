@@ -6,6 +6,25 @@
 
 ## Running Benchmarks
 
+#### JavaScript
+
+```javascript
+function nthFibonacci(num) {
+  if (num < 2) return num;
+  return nthFibonacci(num - 1) + nthFibonacci(num - 2);
+};
+
+let number = 1;
+
+while (number <= 42) {
+  console.log(nthFibonacci(number));
+  number++;
+}
+```
+
+- JavaScript benchmark code is stored in `javascript_fibonacci/index.js`
+- Run JavaScript benchmark with `time node javascript_fibonacci/`
+
 #### Rust
 
 ```rust
@@ -27,25 +46,6 @@ fn main() {
 
 - Rust benchmark code is stored in `rust_fibonacci/src/main.rs`
 - Run Rust benchmark with `time rust_fibonacci/target/release/rust_fibonacci`
-
-#### JavaScript
-
-```javascript
-function nthFibonacci(num) {
-  if (num < 2) return num;
-  return nthFibonacci(num - 1) + nthFibonacci(num - 2);
-};
-
-let number = 1;
-
-while (number <= 42) {
-  console.log(nthFibonacci(number));
-  number++;
-}
-```
-
-- JavaScript benchmark code is stored in `javascript_fibonacci/index.js`
-- Run JavaScript benchmark with `time node javascript_fibonacci/`
 
 #### JavaScript with Rust
 
