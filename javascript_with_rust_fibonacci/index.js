@@ -10,9 +10,9 @@ const lib = ffi.Library(
 
 // ---------- * ---------- * ---------- * ---------- //
 
-let number = 0;
+let index = 0;
 
-while (number <= 42) {
-  console.log(lib.nth_fibonacci(number));
-  number++;
+while (index <= 42) {
+  console.log(lib.nth_fibonacci(index));
+  index++;
 }
